@@ -1,0 +1,179 @@
+ï»¿<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS (Cloudflare CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
+    <!-- jQuery (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
+
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Here is a navbar bootstrap-->
+    <nav class=" fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="books.png" width="80" height="80" alt="">
+        </a>
+        <a class="navbar-brand" href="index.html">Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://mailchi.mp/4f9eeec6c645/borrowed-books-list">Borrow a book</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</head>
+<body>
+    <!---->
+    <!-- Carousel -->
+    <div class="text-center ">
+        <div id="carousel" class="carousel slide d-inline-block" data-ride="carousel">
+            <!-- Èíäèêàòîðû -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="library2.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Astana IT University Library</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="library.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Astana IT University Library</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="library3.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Astana IT University Library</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Ýëåìåíòû óïðàâëåíèÿ -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Ïðåäûäóùèé</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Ñëåäóþùèé</span>
+            </a>
+        </div>
+    </div>
+    <!--Best books-->
+    <div class="title">
+        <span>
+            Best books
+        </span>
+    </div>
+    <section id="best_books">
+        <div class="container row pt-5">
+            <div class=" col-md-10 col-xs-9">
+                <h4>The Last Wish: Introducing the Witcher <br>(The Witcher Book 1)</h4>
+                <p>
+                    Geralt the Witcher—revered and hated—holds the line against the monsters plaguing humanity in this collection of adventures,
+                    the first chapter in the New York Times bestselling series that inspired the hit Netflix show and the blockbuster video games.
+                </p>
+            </div>
+            <div class=" col-md-9 col-xs-3">
+                <img src="https://m.media-amazon.com/images/I/51pRo5wpR4L._SY346_.jpg" width="350px" height="350px">
+            </div>
+        </div>
+        <div class="container row pt-5">
+            <div class=" col-md-10 col-xs-9">
+                <h4>Sword of Destiny <br>(The Witcher Book 2)</h4>
+                <p>
+                    Geralt the Witcher battles monsters, demons and prejudices alike in Sword of Destiny, the second collection of adventures in the New York
+                    Times bestselling series that inspired the Netflix show and the hit video games.
+                </p>
+            </div>
+            <div class=" col-md-9 col-xs-3">
+                <img src="https://m.media-amazon.com/images/I/51Pbb0HyqlL._SY346_.jpg" width="350px" height="350px>
+            </div>
+        </div>
+        <div class="container row pt-5">
+
+        </div>
+    </section>
+
+    <!--Íàäïèñü Subscription databases-->
+    <div class="title">
+        <span>
+            Subscription databases
+        </span>
+    </div>
+
+    <!--Êíîïêà íàâåðõ-->
+    <a href="#" title="Âåðíóòüñÿ ê íà÷àëó" class="topbutton">^Íàâåðõ</a>
+
+    <!--CSS Flexbox-->
+    <div class="container">
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/04/ebsco.png" width="100%" height="100%"><center><h1><b>World Public Library</b></h1></center><b>Direction:</b> An interdisciplinary database.<br><b>Description:</b> Today, the World Public Library Collection has more than 3,000,000+ PDF books in 100+ languages, containing 125 of the best e-books and eDocument collections published online. All e-books are in PDF format, and all audio e-books are in MP3 format. These formats have been developed specifically for cross-platform compatibility with all PCs, laptops, PDAs, Kindle DX, Kindle 3 IPads / iPods, book readers, and smartphones.<br><b>Access:</b> Using the University’s IP addresses.</div>
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/09/sciencedirect-vector-logo.png" width="100%" height="100%"><center><h1><b>ScienceDirect</b></h1></center><p><b>Description:</b> The full – text ScienceDirect database is Elsevier’s leading information platform for scientists, teachers, students, medical professionals and R&D departments of industrial enterprises, which contains 25% of the world’s scientific publications.</p><b>Access:</b> Using the University’s IP addresses.</div>
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/09/webofscience.jpg" width="100%" height="100%"><h1><b>Web of  science</b></h1><b>Description: </b>an Internet search platform that combines abstract databases of publications in scientific journals and patents, including databases that take into account mutual citation of publications. Web of Science covers materials in the natural, technical, social, Humanities, and arts. The platform has built-in capabilities for searching, analyzing, and managing bibliographic information. <b>Access: </b>Using the University’s IP addresses.</div>
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/09/unnamed-1.jpg" width="100%" height="100%"><h1><b>Scopus</b></h1><b>Description: </b>Scopus is a bibliographic and abstract database and a tool for tracking the citation of articles published in scientific publications.<br><b>Access: </b>Using the University’s IP addresses.</div>
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/09/%D0%A0%D0%9C%D0%AD%D0%91.jpg" width="100%" height="100%"><h1><b>ÐÌÝÁ</b></h1><b>Description: </b>Republican interuniversity electronic library –corporate electronic catalog of full-text educational resources of higher education institutions of the Republic of Kazakhstan..<br><b>Access: </b>Using the University’s IP addresses.</div>
+            <div class="zone green"><img src="https://astanait.edu.kz/wp-content/uploads/2020/09/0.png" width="100%" height="100%"><h1><b>Scopus</b></h1><b>Direction:</b> Interdisciplinary database><br><b>Description: </b>One of the largest publishing houses in the world, which annually publishes about a quarter of all articles from scientific journals published in the world. Founded in 1880 in Amsterdam (Netherlands). Elsevier is the world’s leading commercial publisher of scientific and technical information, publishing more than 2,000 scientific journals and providing access to 10.2 million scientific articles on its electronic Internet portal “ScienceDirect”. Elsevier provides scientific data to about 4,500 organizations and universities from 180 countries.<br><b>Access: </b>Using the University’s IP addresses.</div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="ps-3 pt-5">
+        <h1 class="heading">Contacts</h1>
+        <p class="parag">You can reach me by this contacts</p>
+    </div>
+    <div class="container py-3">
+        <div class="contacts_list row">
+            <div class="col-md-6 col-xs-6">
+                <ul class="links_list">
+                    <li class="list_item"> +12345678900</li>
+                    <li class="list_item"> example@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <ul>
+                    <div class="hr1">
+                        <a href="https://vk.com/"><img src="vk.png" width="50" height="50"></a>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="hr2">
+                        <a href="https://instagram.com/"><img src="insta.png" width="50" height="50"></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</html>

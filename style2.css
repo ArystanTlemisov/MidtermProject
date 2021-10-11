@@ -1,0 +1,76 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-image: url("background.png");
+}
+nav {
+    height: 80px;
+    font-family: 'Playfair Display', serif;
+}
+#books_store {
+    color: black;
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.book_info {
+    padding-left: 30px;
+}
+#book1 {
+    margin-top: 100px;
+}
+
+.topbutton {
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background: #282828;
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    display: flex;
+}
+.heading {
+    padding-left: 230px;
+    font-weight: bold;
+}
+.parag {
+    padding-left: 230px;
+}
+.links_list {
+    list-style: none;
+    padding-left: 200px;
+}
+.list_item {
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+li, a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display:inline-block; 
+    padding-left: 200px;
+}

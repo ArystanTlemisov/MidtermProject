@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS (Cloudflare CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
+    <!-- jQuery (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
+
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    
+    
+</head>
+<body>
+    <nav class=" fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="books.png" width="80" height="80" alt="">
+        </a>
+        <a class="navbar-brand" href="index.html">Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://mailchi.mp/4f9eeec6c645/borrowed-books-list">Borrow a book</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="books_store">
+        <div class="container">
+            <div class="row">
+                <div class="book col-md-4 col-xs-6">
+                    <a href="#book1"><img src="book1.png" width="100%"></a>
+                    <h4 class="text-center">Get Programming with Scala</h4>
+                </div>
+                <div class="book col-md-4 col-xs-6">
+                    <a href="#book2"><img src="book2.png" width="100%"></a>
+                    <h4 class="text-center">Java to Kotlin</h4>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <a href="#book3"><img src="book3.png" width="100%"></a>
+                    <h4 class="text-center">SQL Notes for Professionals</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-6">
+                    <a href="#book4"><img src="book4.png" width="100%"></a>
+                    <h4 class="text-center">50 Ways to Avoid Find and Fix ASP.NET Performance Issues</h4>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <a href="#book5"><img src="book5.png" width="100%"></a>
+                    <h4 class="text-center">Good Code, Bad Code</h4>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                    <a href="#book6"><img src="book6.png" width="100%"></a>
+                    <h4 class="text-center">App Modernization on Azure Succinctly</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="book1">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>Get Programming with Scala</h4>
+                <p>
+                    Get Programming with Scala is a fast-paced introduction to the Scala language, covering both Scala 2 and Scala 3. You'll learn through lessons, quizzes, and hands-on projects that bring your new skills to life. Clear explanations make Scala's features and abstractions easy to understand. As you go, you'll learn to write familiar object-oriented code in Scala and also discover the possibilities of functional programming.
+                </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book1.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <section id="book2">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>Java to Kotlin</h4>
+                <p>
+                    It takes a week to travel the 8,000 miles overland from Java to Kotlin. If you're an experienced Java developer who has tried the Kotlin language, you were probably productive in about the same time.
+                    You'll have found that they do things differently in Kotlin, though. Nullability is important, collections are different, and classes are final by default. Kotlin is more functional, but what does that mean, and how should it change the way that you program? And what about all that Java code that you still have to support? 
+                    Your tour guides Duncan and Nat first made the trip in 2015, and they've since helped many teams and individuals follow in their footsteps. Travel with them as they break the route down into legs like Optional to Nullable, Beans to Values, and Open to Sealed Classes. Each explains a key concept and then shows how to refactor production Java to idiomatic Kotlin, gradually and safely, while maintaining interoperability.
+                    The resulting code is simpler, more expressive, and easier to change. By the end of the journey, you'll be confident in refactoring Java to Kotlin, writing Kotlin from scratc
+                </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book2.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <section id="book3">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>SQL Notes for Professionals</h4>
+                <p>
+                    The SQL Notes for Professionals book is compiled from Stack Overflow Documentation, the content is written by the beautiful people at Stack Overflow.                 </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book3.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <section id="book4">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>50 Ways to Avoid Find and Fix ASP.NET Performance Issues</h4>
+                <p>
+                    Read the tips and tricks that top developers from the .NET and SQL Server communities use to boost code and query performance in their applications.
+
+                    50 tips from the .NET and SQL Server communities for boosting performance in your .NET application; Learn the secrets of your fellow developers and read advice from MVPs and other experts; Covers performance problems in .NET code, SQL Server queries, interactions between code and database, and more...                 </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book4.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <section id="book5">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>Good Code, Bad Code</h4>
+                <p>
+                    The difference between good code or bad code often comes down to how you apply the established practices of the software development community. In Good Code, Bad Code you'll learn how to boost your productivity and effectiveness with code development insights normally only learned through careful mentorship and hundreds of code reviews.
+
+                    Software development is a team sport. For an application to succeed, your code needs to be robust and easy for others to understand, maintain, and adapt. Whether you're working on an enterprise team, contributing to an open source project, or bootstrapping a startup, it pays to know the difference between good code and bad code.
+                    
+                    Good Code, Bad Code is a clear, practical introduction to writing code that's a snap to read, apply, and remember. With dozens of instantly-useful techniques, you'll find coding insights that normally take years of experience to master. In this fast-paced guide, Google software engineer Tom Long teaches you a host of rules to apply, along with advice on when to break them!                 </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book5.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <section id="book6">
+        <div class="container row">
+            <div class="book_info col-md-10 col-xs-9">
+                <h4>App Modernization on Azure Succinctly</h4>
+                <p>
+                    What's the right way to move existing applications to the cloud to better use its power while enabling new features? In App Modernization on Azure Succinctly, Lorenzo Barbieri will help you understand how to modernize existing apps without completely rewriting them. This ebook will guide you through moving your app to the cloud, refactoring, rearchitecting, and choosing which cloud services will improve your app and experience. Most of the concepts in this book are also valid for a complete rewrite of an app directly in the cloud, or new apps built directly in the cloud.                 </p>
+            </div>
+            <div class="book_pic col-md-2 col-xs-3">
+                <img src="book6.png" width="200%">
+            </div>
+        </div>
+    </section>
+    <!--Кнопка наверх-->
+    <a href="#" title="Вернуться к началу" class="topbutton" >^Наверх</a>
+</body>
+<footer>
+    <div class="pt-5">
+        <h1 class="heading">Contacts</h1>
+        <p class="parag">You can reach me by this contacts</p>
+    </div>
+    <div class="container pt-5 py-3">
+        <div class="contacts_list row pt-5">
+            <div class="col-md-6 col-xs-6">
+                <ul class="links_list">
+                    <li class="list_item"> +12345678900</li>
+                    <li class="list_item"> example@gmail.com</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="col-md-6 col-xs-6">
+            <ul>
+                <div class="hr1">
+                    <a href="https://vk.com/"><img src="vk.png" width="50" height="50"></a>
+                </div>
+            </ul>
+            <ul>
+                <div class="hr2">
+                    <a href="https://instagram.com/"><img src="insta.png" width="50" height="50"></a>
+                </div>
+            </ul>
+        </div>
+    </div>
+</footer>
+</html>
